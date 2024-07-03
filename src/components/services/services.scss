@@ -1,0 +1,622 @@
+// @import "../../app.scss";
+// .services {
+//   background: linear-gradient(180deg, #0c0c1d, #111132);
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+
+//   .textContainer {
+//     flex: 1;
+//     align-self: flex-end;
+//     display: flex;
+//     align-items: center;
+//     gap: 20px;
+
+//     @include mobile {
+//       align-self: center;
+//       text-align: center;
+//       flex-direction: column;
+//     }
+
+//     p {
+//       font-weight: 300;
+//       font-size: 20px;
+//       color: rgb(182, 176, 176);
+//       text-align: right;
+//     }
+
+//     hr {
+//       width: 500px;
+//       border: none;
+//       border-top: 0.5px solid gray;
+
+//       @include mobile {
+//         width: 300px;
+//       }
+//     }
+//   }
+//   .titleContainer {
+//     flex: 2;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     @include mobile {
+//       width: 100%;
+//     }
+
+//     .title {
+//       display: flex;
+//       align-items: center;
+//       gap: 35px;
+
+//       @include mobile {
+//         flex-direction: column;
+//         text-align: center;
+//         gap: 20px;
+//       }
+
+//       img {
+//         width: 300px;
+//         height: 100px;
+//         border-radius: 50px;
+//         object-fit: cover;
+
+//         @include mobile {
+//           width: 200px;
+//           height: 50px;
+//         }
+//       }
+
+//       h1 {
+//         font-size: 96px;
+//         font-weight: 100;
+
+//         @include mobile {
+//           font-size: 36px;
+//         }
+//       }
+
+//       button {
+//         width: 300px;
+//         height: 100px;
+//         border-radius: 50px;
+//         background-color: orange;
+//         border: none;
+//         font-size: 30px;
+//         cursor: pointer;
+
+//         @include mobile {
+//           font-size: 16px;
+//           width: 150px;
+//           height: 50px;
+//         }
+//       }
+//     }
+//   }
+//   .listContainer {
+//     flex: 2;
+//     display: flex;
+//     max-width: 1366px;
+//     margin: auto;
+
+//     @include mobile {
+//       flex-direction: column;
+//       width: 100%;
+//     }
+
+//     .box {
+//       padding: 50px;
+//       border: 0.5px solid gray;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: space-between;
+
+//       @include mobile {
+//         border: none;
+//         align-items: center;
+//         gap: 20px;
+//         padding: 10px;
+//       }
+
+//       p {
+//         @include mobile {
+//           display: none;
+//         }
+//       }
+
+//       button {
+//         padding: 10px;
+//         background-color: orange;
+//         border: none;
+//         cursor: pointer;
+
+//         @include mobile {
+//           background-color: transparent;
+//           border: 1px solid orange;
+//           border-radius: 5px;
+//           color: orange;
+//           width: 50%;
+//           padding: 5px;
+//         }
+//       }
+//     }
+//   }
+// }
+// @import "../../app.scss";
+
+// .services {
+//   background: linear-gradient(180deg, #0c0c1d, #111132);
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+
+//   .textContainer {
+//     flex: 1;
+//     align-self: flex-end;
+//     display: flex;
+//     align-items: center;
+//     gap: 20px;
+
+//     @include mobile {
+//       align-self: center;
+//       text-align: center;
+//       flex-direction: column;
+//     }
+
+//     p {
+//       font-weight: 300;
+//       font-size: 20px;
+//       color: rgb(182, 176, 176);
+//       text-align: right;
+//     }
+
+//     hr {
+//       width: 500px;
+//       border: none;
+//       border-top: 0.5px solid gray;
+
+//       @include mobile {
+//         width: 300px;
+//       }
+//     }
+//   }
+
+//   .titleContainer {
+//     flex: 2;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     @include mobile {
+//       width: 100%;
+//     }
+
+//     .title {
+//       display: flex;
+//       align-items: center;
+//       gap: 35px;
+
+//       @include mobile {
+//         flex-direction: column;
+//         text-align: center;
+//         gap: 20px;
+//       }
+
+//       img {
+//         width: 300px;
+//         height: 95px;
+//         border-radius: 50px;
+//         object-fit: cover;
+
+//         @include mobile {
+//           width: 200px;
+//           height: 50px;
+//         }
+//       }
+
+//       h1 {
+//         font-size: 88px;
+//         font-weight: 100;
+
+//         @include mobile {
+//           font-size: 36px;
+//         }
+//       }
+
+//       button {
+//         width: 300px;
+//         height: 95px;
+//         border-radius: 50px;
+//         background-color: orange;
+//         border: none;
+//         font-size: 30px;
+//         cursor: pointer;
+
+//         @include mobile {
+//           font-size: 16px;
+//           width: 150px;
+//           height: 50px;
+//         }
+//       }
+//     }
+//   }
+
+//   .listContainer {
+//     flex: 2;
+//     display: flex;
+//     max-width: 1366px;
+//     margin: auto;
+//     gap: 20px;
+
+//     @include mobile {
+//       flex-direction: column;
+//       width: 100%;
+//       gap: 10px;
+//     }
+
+//     .box {
+//       flex: 1;
+//       padding: 15px;
+//       border: 2px solid gray;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: flex-start;
+//       align-items: center;
+//       border-radius: 20px; /* Add this line for curved corners */
+//       margin-bottom: 5px;
+
+//       @include mobile {
+//         border: none;
+//         align-items: center;
+//         gap: 20px;
+//         padding: 10px;
+//       }
+
+//       h2 {
+//         text-align: center;
+//         margin-bottom: 30px;
+//       }
+
+//       .skills {
+//         display: flex;
+//         flex-wrap: wrap;
+//         gap: 20px;
+//         justify-content: center;
+
+//         .skill {
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           width: 80px; /* Adjust this width to ensure consistent sizing */
+//           text-align: center;
+
+//           i {
+//             font-size: 50px;
+//           }
+
+//           p {
+//             margin-top: 10px;
+//             font-size: 14px;
+//           }
+//         }
+
+//         .react {
+//           color: #61dafb;
+//         }
+//         .nextjs {
+//           color: #000000;
+//         }
+//         .nodejs {
+//           color: #83cd29;
+//         }
+//         .html {
+//           color: #e34c26;
+//         }
+//         .css {
+//           color: #1572b6;
+//         }
+//         .bootstrap {
+//           color: #7952b3;
+//         }
+//         .mysql {
+//           color: #4479a1;
+//         }
+//         .tailwind {
+//           color: #38b2ac;
+//         }
+//         .cpp {
+//           color: #00599c;
+//         }
+//         .python {
+//           color: #306998;
+//         }
+//         .c {
+//           color: #a8b9cc;
+//         }
+//         .latex {
+//           color: #008080;
+//         }
+//         .javascript {
+//           color: #f7df1e;
+//         }
+//         .opencv {
+//           color: #5c3ee8;
+//         }
+//         .pandas {
+//           color: #150458;
+//         }
+//         .scikit {
+//           color: #f7931e;
+//         }
+//         .tensorflow {
+//           color: #ff6f00;
+//         }
+//         .pytorch {
+//           color: #ee4c2c;
+//         }
+//         .cnn {
+//           color: #4b8bbe;
+//         }
+//         .git {
+//           color: #f05032;
+//         }
+//         .github {
+//           color: #181717;
+//         }
+//         .figma {
+//           color: #f24e1e;
+//         }
+//         .wireshark {
+//           color: #0079a3;
+//         }
+//         .vivado {
+//           color: #2da679;
+//         }
+//       }
+//     }
+//   }
+// }
+@import "../../app.scss";
+
+.services {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .textContainer {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include mobile {
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 20px;
+      color: rgb(182, 176, 176);
+      text-align: right;
+    }
+
+    hr {
+      width: 500px;
+      border: none;
+      border-top: 0.5px solid gray;
+
+      @include mobile {
+        width: 300px;
+      }
+    }
+  }
+
+  .titleContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+
+      @include mobile {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+
+      img {
+        width: 300px;
+        height: 95px;
+        border-radius: 50px;
+        object-fit: cover;
+
+        @include mobile {
+          width: 200px;
+          height: 50px;
+        }
+      }
+
+      h1 {
+        font-size: 88px;
+        font-weight: 100;
+
+        @include mobile {
+          font-size: 36px;
+        }
+      }
+
+      button {
+        width: 300px;
+        height: 95px;
+        border-radius: 50px;
+        background-color: orange;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+
+        @include mobile {
+          font-size: 16px;
+          width: 150px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  .listContainer {
+    flex: 2;
+    display: flex;
+    max-width: 1366px;
+    margin: auto;
+    gap: 20px;
+
+    @include mobile {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+    }
+
+    .box {
+      flex: 1;
+      padding: 15px;
+      border: 2px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 20px; /* Add this line for curved corners */
+      margin-bottom: 5px;
+
+      @include mobile {
+        border: none;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+
+        .skill {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 80px; /* Adjust this width to ensure consistent sizing */
+          text-align: center;
+
+          i {
+            font-size: 50px;
+          }
+
+          p {
+            margin-top: 10px;
+            font-size: 14px;
+          }
+        }
+
+        .react {
+          color: #61dafb;
+        }
+        .nextjs {
+          color: #000000;
+        }
+        .nodejs {
+          color: #83cd29;
+        }
+        .html {
+          color: #e34c26;
+        }
+        .css {
+          color: #1572b6;
+        }
+        .bootstrap {
+          color: #7952b3;
+        }
+        .mysql {
+          color: #4479a1;
+        }
+        .tailwind {
+          color: #38b2ac;
+        }
+        .cpp {
+          color: #00599c;
+        }
+        .python {
+          color: #306998;
+        }
+        .c {
+          color: #a8b9cc;
+        }
+        .latex {
+          color: #008080;
+        }
+        .javascript {
+          color: #f7df1e;
+        }
+        .opencv {
+          color: #5c3ee8;
+        }
+        .pandas {
+          color: #150458;
+        }
+        .scikit {
+          color: #f7931e;
+        }
+        .tensorflow {
+          color: #ff6f00;
+        }
+        .pytorch {
+          color: #ee4c2c;
+        }
+        .cnn {
+          color: #4b8bbe;
+        }
+        .seaborn {
+          color: #4c72b0;
+        }
+        .matplotlib {
+          color: #11557c;
+        }
+        .git {
+          color: #f05032;
+        }
+        .github {
+          color: #181717;
+        }
+        .figma {
+          color: #f24e1e;
+        }
+        .wireshark {
+          color: #0079a3;
+        }
+        .vivado {
+          color: #2da679;
+        }
+      }
+    }
+  }
+}
